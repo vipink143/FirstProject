@@ -1,0 +1,16 @@
+{
+    "registerElementLocators":
+    {
+        "firstName":"#input-firstname",
+        "lastName":"#input-lastname",
+        "email":"#input-email",
+        "telephoneNumber":"#input-telephone",
+        "password":"#input-password",
+        "confirmPassword":"#input-confirm",
+        "checkBoxForSelection":"[type='checkbox']",
+        "continueBtn":"[type='submit']",
+       "validationErr" :"[class='text-danger']"
+
+    }
+
+}
