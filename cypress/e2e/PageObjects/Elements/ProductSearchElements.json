@@ -1,0 +1,16 @@
+
+
+{
+
+    "productSearchElementLocators":
+    {
+        "searchAll":"[name='search']",
+        "checkbox":"[id='description']",
+        "sortDropdown":"#input-sort >option",
+        "searchButton":"#button-search"
+
+
+    }
+
+
+}

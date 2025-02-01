@@ -9,7 +9,7 @@ module.exports = defineConfig({
     },
     env:{
       "loginURL":"https://naveenautomationlabs.com/opencart/index.php?route=account/login",
-      "productSearch":"https://naveenautomationlabs.com/opencart/index.php?route=product/search"
+      "productSearchURL":"https://naveenautomationlabs.com/opencart/index.php?route=product/search"
     }
   },
 });
