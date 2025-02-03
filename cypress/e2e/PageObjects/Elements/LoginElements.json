@@ -7,6 +7,5 @@
         "submitBtn":"[type='submit']",
         "errorMsgForInvalidUser":"[class='alert alert-danger alert-dismissible']",
         "registerPage":"[class='btn btn-primary']"
-
     }
 }

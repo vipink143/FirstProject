@@ -20,22 +20,31 @@ describe("Products meets the search criteria",()=>{
 
         it("should check that the products are sorted by Price (Low > High)",()=>{
 
+            ProductSearchPage.searchProductByText();
             ProductSearchPage.sortSearchResultsBy(SORTING_CRITERIA.PRICE_ASC);
+            ProductSearchPage.allProductPricesSortByPriceASC()
 
         })
         it("should check that the products are sorted by Price (Low > High)",()=>{
 
+            ProductSearchPage.searchProductByText();
             ProductSearchPage.sortSearchResultsBy(SORTING_CRITERIA.PRICE_DESC);
+            ProductSearchPage.allProductPricesSortByPriceDESC();
 
         })
+
         it("should check that the products are sorted by Name (A - Z)",()=>{
 
-            ProductSearchPage.sortSearchResultsBy(SORTING_CRITERIA.NAME_ASC);
+            ProductSearchPage.searchProductByText();
+            ProductSearchPage.sortSearchResultsBy(SORTING_CRITERIA.NAME_ASC)
+            
 
         })
         it("should check that the products are sorted by Name (Z - A)",()=>{
 
+            ProductSearchPage.searchProductByText();
             ProductSearchPage.sortSearchResultsBy(SORTING_CRITERIA.NAME_DESC);
+            
 
         })
     })
