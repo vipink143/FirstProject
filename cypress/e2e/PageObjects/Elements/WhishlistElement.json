@@ -1,0 +1,9 @@
+
+{
+    "wishlistElementLocators":
+    {
+        "itemWishlist":"[data-original-title='Add to Wish List']",
+        "alertWishlist":"[class='alert alert-success alert-dismissible']"
+
+    }
+}

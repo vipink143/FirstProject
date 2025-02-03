@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "naveentest": "npx cypress run --spec cypress/e2e/Tests/LoginTest.cy.js,cypress/e2e/Tests/RegistrationTest.cy.js,cypress/e2e/Tests/ProductSearchTest.cy.js,cypress/e2e/Tests/WishlistTest.cy.js"
   },
   "author": "vipin",
   "license": "ISC",

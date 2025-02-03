@@ -6,7 +6,7 @@ import {validationMessages} from "../config/errorMessages"
 
 describe("Account Registration",()=>{
     beforeEach(()=>{
-        cy.visit(Cypress.env('URL'));
+        cy.visit(Cypress.env('loginURL'));
       
        LoginPage.RegistrationPage();
     })
