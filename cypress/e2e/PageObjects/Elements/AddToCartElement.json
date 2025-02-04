@@ -1,0 +1,15 @@
+
+{
+    "addToCartElementLocators":
+    {
+        "viewWishlistLocator":"[id='wishlist-total']",
+        "addItemToCartLocator":"[data-original-title='Add to Cart']",
+        "alertItemToCartLocator":"[class='alert alert-success alert-dismissible']",
+        "clickOnCartLocator":"[id='cart-total']",
+        "viewCartLocator":"[class='text-right']>a",
+        "itemVerificationInCartLocator":"[class='table-responsive']>table>tbody>tr",
+        "itemNameverificationLocator":"td:nth-of-type(2)>a"
+    }
+
+
+}
