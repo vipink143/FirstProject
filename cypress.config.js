@@ -2,7 +2,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    watchForFileChanges:true,
+    watchForFileChanges:false,
     pageLoadTimeout:60000,
     experimentalSessionAndOrigin: true,
     reporter: 'cypress-mochawesome-reporter',

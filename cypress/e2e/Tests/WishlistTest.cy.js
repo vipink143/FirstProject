@@ -7,11 +7,15 @@ describe("adding and removing products from wishlist",()=>{
 
 
     beforeEach(()=>{
+
+        
         cy.visit(Cypress.env('loginURL'));
         cy.login();
         ProductSearchPage.searchHeaderProduct()
        
         WishlistPage.addProductToWishlist();
+       
+        
     })
 
 
