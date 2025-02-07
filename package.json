@@ -5,7 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "naveentest": "npx cypress run --spec cypress/e2e/Tests/LoginTest.cy.js,cypress/e2e/Tests/RegistrationTest.cy.js,cypress/e2e/Tests/ProductSearchTest.cy.js,cypress/e2e/Tests/WishlistTest.cy.js,cypress/e2e/Tests/AddToCartTest.cy.js",
-    "loginTest": "npx cypress run --spec cypress/e2e/Tests/LoginTest.cy.js"
+    "loginTest": "npx cypress run --spec cypress/e2e/Tests/LoginTest.cy.js",
+    "testproject1":"npm run test -- --spec cypress/e2e/Tests/LoginTest.cy.js",
+    "testproject2":"npm run test -- --spec cypress/e2e/Tests/ProductSearchTest.cy.js"
   },
   "author": "vipin",
   "license": "ISC",
