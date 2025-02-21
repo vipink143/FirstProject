@@ -116,11 +116,11 @@ pipeline {
         }
         
        // Mocha JUnit Reporter produces separate XML for each spec result, so we merge the test results into one XML file 
-       stage('Stage 5 - Merging JUnit reports') {
-           steps {
-               sh "npm run report:post"
-           }
-       }
+    //    stage('Stage 5 - Merging JUnit reports') {
+    //        steps {
+    //            sh "npm run report:post"
+    //        }
+    //    }
 
    }
    
