@@ -6,7 +6,7 @@
     "results-junit:delete": "rm -rf cypress/results/junit/* || true",
     "report:pre": "npm run results-junit:delete",
     "report:post": "npm run results-junit:combine",
-    "results-junit:combine": "jrm cypress/results/junit/combined-report.xml \"cypress/results/junit/*.xml\"",
+    "results-junit:combine": "npx jrm cypress/results/junit/combined-report.xml \"cypress/results/junit/*.xml\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "naveentest": "npx cypress run --spec cypress/e2e/Tests/LoginTest.cy.js,cypress/e2e/Tests/RegistrationTest.cy.js,cypress/e2e/Tests/ProductSearchTest.cy.js,cypress/e2e/Tests/WishlistTest.cy.js,cypress/e2e/Tests/AddToCartTest.cy.js"
    
