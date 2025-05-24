@@ -18,5 +18,7 @@ class LoginPage
         cy.get(loginLocators.loginElementLocators.registerPage).eq(0).click();
     }
 
+    
+
 
 } export default new LoginPage
